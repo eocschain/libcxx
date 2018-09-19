@@ -142,7 +142,7 @@ random_device::operator()()
 }
 
 #else
-#error "Random device not implemented for this architecture"
+// #error "Random device not implemented for this architecture"
 #endif
 
 double

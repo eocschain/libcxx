@@ -287,7 +287,7 @@
 #elif defined(_LIBCPP_WIN32API)
 # define _LIBCPP_USING_WIN32_RANDOM
 #else
-# define _LIBCPP_USING_DEV_RANDOM
+// # define _LIBCPP_USING_DEV_RANDOM
 #endif
 
 #if !defined(_LIBCPP_LITTLE_ENDIAN) || !defined(_LIBCPP_BIG_ENDIAN)
