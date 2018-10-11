@@ -16,6 +16,7 @@
  * (I've tried to write a template which should work for any types, but it didn't work out) 
  */
 
+/*
 inline int __sync_lock_test_and_set( int* ptr, int val ) {
    auto old = *ptr;
    *ptr = val;
@@ -59,3 +60,4 @@ inline std::unexpected_handler __sync_fetch_and_add( std::unexpected_handler* pt
    *reinterpret_cast<char*>( *ptr ) = size_t(val);
    return old;
 }
+*/
